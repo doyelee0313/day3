@@ -1,0 +1,121 @@
+body {
+    display: contents;
+    font-family: arial, sans-serif;
+    background-color: lightgray; 
+}
+
+.navbar {
+    float: right; /*왼쪽 오른쪽 정렬, 근데 이거하면서 body part 랑 같은 동일선상에 놓이게 됨*/
+    /* border:1px solid red; */
+    margin: 20px;
+}
+
+.nav-item {
+    text-decoration: none; /*a tag underline 없애주기*/
+    color:black;
+    color: #e8eaed;
+    padding-right: 15px;
+}
+
+.nav-item:hover{ /*nav item 에 있는 item 에 hover 라는 event 가 발생하거든, 아래를 실행시켜라*/
+    text-decoration: underline;
+}
+
+.main {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.input-area{
+    margin-top: 20px;
+}
+
+.input-box{
+    width: 584px;
+    height: 48px;
+    border-radius: 24px;
+    border: 1px solid #5f6368;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.search-icon{
+    position: relative; /*포지션을 어떻게 설정할거냐*/ 
+    left:40px;
+    color: #9aa0a6;
+}
+.mic-icon{
+    position: relative; /*포지션을 어떻게 설정할거냐*/ 
+    right:40px;
+    color: #9aa0a6;
+}
+.button-area{
+    padding-top:20px;
+}
+
+.language{
+    text-decoration: none;
+}
+
+.button-style{
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px; /*위 아래는 0 양옆은 16*/
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.button-style:hover{
+    box-shadow: 0 1px 3px rgba(23, 23, 23, 0.24);
+    background-color: #1f1f1f;
+    border: 1px solid #5f6368;
+    color: #e8eaed;
+}
+
+.offer-box{
+    color: var(--bbQxAb);
+    display: inline-block;
+    line-height: 28px;
+    color: #e8eaed;
+}
+
+.footer{
+    position: absolute; /* 절댓값이 밑에 0px 인 경우*/
+    bottom: 0px;
+    background-color: #1f1f1f;
+    color: #e8eaed;
+    width: 100%; /*부모의 100프로*/
+    padding: 0 20px;
+}
+
+.first-line{
+    padding: 15px 30px;
+    border-bottom: 1px solid var(--gS5jXb);
+    font-size: 15px;
+    color: var(--YLNNHc);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.second-line{
+    padding: 15px 30px;
+    border-bottom: 1px solid var(--gS5jXb);
+}
+
+.second-line-second{
+    float:right;
+}
+
+.footer-item{
+    text-decoration: none; /*a tag underline 없애주기*/
+    color: #e8eaed;
+    padding: 0px 5px; 
+}
