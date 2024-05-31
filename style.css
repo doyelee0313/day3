@@ -89,25 +89,20 @@ body {
 .footer{
     position: absolute; /* 절댓값이 밑에 0px 인 경우*/
     bottom: 0px;
-    background-color: #1f1f1f;
+    background-color: #171717;
     color: #e8eaed;
     width: 100%; /*부모의 100프로*/
-    padding: 0 20px;
 }
 
 .first-line{
     padding: 15px 30px;
-    border-bottom: 1px solid var(--gS5jXb);
+    border-bottom: 1px solid #313335;
     font-size: 15px;
-    color: var(--YLNNHc);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    color: #e8e8e8;
 }
 
 .second-line{
     padding: 15px 30px;
-    border-bottom: 1px solid var(--gS5jXb);
 }
 
 .second-line-second{
